@@ -18,7 +18,7 @@ int main()
 
  while(!feof(arc)){
     fscanf(arc,"%d",&x);
-    if(x%10==0){
+    if(x%10==0 && x!=0){
         fprintf(arc1,"El valor %d es multiplo de 10\n",x);
         printf("El valor %d es multiplo de 10\n",x);
     }
@@ -30,7 +30,7 @@ int main()
  }
   
  fclose(arc);
- fclose(arc);
+ fclose(arc1);
 
     return 0;
 }

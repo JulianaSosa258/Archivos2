@@ -1,4 +1,4 @@
-El valor 0 es multiplo de 10
+0
 1
 2
 3
